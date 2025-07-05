@@ -1,0 +1,13 @@
+CREATE DATABASE IF NOT EXISTS pos_system;
+
+USE pos_system;
+
+CREATE TABLE IF NOT EXISTS products (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100),
+  category VARCHAR(50),
+  quantity INT,
+  expiry DATE,
+  price DECIMAL(10,2),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
