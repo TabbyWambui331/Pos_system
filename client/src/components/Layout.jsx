@@ -16,7 +16,7 @@ const Layout = ({ children }) => (
         textAlign: "center",
       }}
     >
-      &copy; {new Date().getFullYear()} Easymob
+      &copy; 2025 Easymob. All rights reserved.
     </footer>
   </div>
 );

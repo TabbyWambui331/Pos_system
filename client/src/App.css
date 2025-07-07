@@ -40,3 +40,43 @@
 .read-the-docs {
   color: #888;
 }
+
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.main-title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.subtitle {
+  color: #3182ce;
+}
+
+.sales-summary {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: #f7fafc;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.sales-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.sales-amount {
+  font-size: 1.5rem;
+  color: #38a169;
+  font-weight: bold;
+}
+
+.sales-count {
+  font-size: 0.9rem;
+  color: #718096;
+}
